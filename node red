@@ -1,0 +1,702 @@
+[
+    {
+        "id": "4c71721929c92955",
+        "type": "tab",
+        "label": "Order/Check order ",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "84ab1d049236c8d3",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "4e9dde5e381011e5",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "node-red",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "bab26810973d1e8a",
+        "type": "mui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "m-base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "m-page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "m-page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "m-page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "m-group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "m-group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "m-group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "m-widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "m-widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "m-widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "931dd7d9.22ab58",
+        "type": "ui_group",
+        "name": "Check Order Form",
+        "tab": "6db532b6.50bdac",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": true
+    },
+    {
+        "id": "31c44db.a429ab2",
+        "type": "ui_group",
+        "name": "Manage Orders",
+        "tab": "6db532b6.50bdac",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": true
+    },
+    {
+        "id": "6db532b6.50bdac",
+        "type": "ui_tab",
+        "name": "Admin_Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e08ee1952047034e",
+        "type": "ui_form",
+        "z": "4c71721929c92955",
+        "name": "",
+        "label": "",
+        "group": "931dd7d9.22ab58",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Order ID",
+                "value": "O_ID",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "O_ID": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 270,
+        "y": 100,
+        "wires": [
+            [
+                "eb33bc3829e81f9b"
+            ]
+        ]
+    },
+    {
+        "id": "eb33bc3829e81f9b",
+        "type": "function",
+        "z": "4c71721929c92955",
+        "name": "",
+        "func": "msg.topic = \n\"SELECT * FROM orderitem WHERE OrderID = \"+msg.payload.O_ID +\";\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 100,
+        "wires": [
+            [
+                "a498237e05eaaf8a"
+            ]
+        ]
+    },
+    {
+        "id": "8d7a67738d056c8f",
+        "type": "debug",
+        "z": "4c71721929c92955",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "47629e1e1319b9e7",
+        "type": "ui_text",
+        "z": "4c71721929c92955",
+        "group": "931dd7d9.22ab58",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Order_ID",
+        "format": "{{msg.payload[1][0].Order_ID}}",
+        "layout": "row-center",
+        "x": 830,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "becc11c94117b446",
+        "type": "ui_table",
+        "z": "4c71721929c92955",
+        "group": "931dd7d9.22ab58",
+        "name": "",
+        "order": 2,
+        "width": "6",
+        "height": "2",
+        "columns": [],
+        "outputs": 1,
+        "cts": true,
+        "x": 950,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bec3c29b0a93db9c",
+        "type": "function",
+        "z": "4c71721929c92955",
+        "name": "",
+        "func": "msg.payload = msg.payload[1]\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 40,
+        "wires": [
+            [
+                "becc11c94117b446"
+            ]
+        ]
+    },
+    {
+        "id": "49927123937b19a2",
+        "type": "ui_form",
+        "z": "4c71721929c92955",
+        "name": "",
+        "label": "Insert Order",
+        "group": "31c44db.a429ab2",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Order Item 1",
+                "value": "Order Item1",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Order Item 2",
+                "value": "Order Item2",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Order Item 3",
+                "value": "Order Item3",
+                "type": "number",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "Order Item1": "",
+            "Order Item2": "",
+            "Order Item3": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 270,
+        "y": 160,
+        "wires": [
+            [
+                "a3643f16ccae34a8",
+                "91c59ec0aa0ee353"
+            ]
+        ]
+    },
+    {
+        "id": "91c59ec0aa0ee353",
+        "type": "function",
+        "z": "4c71721929c92955",
+        "name": "",
+        "func": "msg.topic = \n\"INSERT INTO orders (OrderID, CustomerID, OrderDate, TotalAmount, OrderStatus) VALUES (\"+msg.payload[\"Order Item1\"]+\",\"+msg.payload[\"Order Item2\"]+\",\"+msg.payload[\"Order Item3\"]+\");\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 160,
+        "wires": [
+            [
+                "a498237e05eaaf8a"
+            ]
+        ]
+    },
+    {
+        "id": "a3643f16ccae34a8",
+        "type": "debug",
+        "z": "4c71721929c92955",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "08d991122d2ddb01",
+        "type": "ui_text",
+        "z": "4c71721929c92955",
+        "group": "31c44db.a429ab2",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Latest_Order",
+        "format": "{{payload[1][0].Order_ID}}",
+        "layout": "row-center",
+        "x": 860,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "979f0c54fc2c96fb",
+        "type": "ui_button",
+        "z": "4c71721929c92955",
+        "name": "",
+        "group": "31c44db.a429ab2",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Check Latest Order",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 320,
+        "wires": [
+            [
+                "6f06c6ee4487d618"
+            ]
+        ]
+    },
+    {
+        "id": "6f06c6ee4487d618",
+        "type": "function",
+        "z": "4c71721929c92955",
+        "name": "",
+        "func": "msg.topic = \n\"SELECT * FROM orderitem ORDER BY OrderID DESC LIMIT 1;\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 340,
+        "wires": [
+            [
+                "ae7232df58ac5061"
+            ]
+        ]
+    },
+    {
+        "id": "d2b03243ae66e29d",
+        "type": "debug",
+        "z": "4c71721929c92955",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "ae7232df58ac5061",
+        "type": "mysql",
+        "z": "4c71721929c92955",
+        "mydb": "4e9dde5e381011e5",
+        "name": "",
+        "x": 620,
+        "y": 360,
+        "wires": [
+            [
+                "d2b03243ae66e29d",
+                "08d991122d2ddb01"
+            ]
+        ]
+    },
+    {
+        "id": "a498237e05eaaf8a",
+        "type": "mysql",
+        "z": "4c71721929c92955",
+        "mydb": "4e9dde5e381011e5",
+        "name": "",
+        "x": 640,
+        "y": 120,
+        "wires": [
+            [
+                "bec3c29b0a93db9c",
+                "47629e1e1319b9e7",
+                "8d7a67738d056c8f"
+            ]
+        ]
+    },
+    {
+        "id": "7785d9a81c814066",
+        "type": "ui_form",
+        "z": "4c71721929c92955",
+        "name": "Update Order",
+        "label": "Update Order",
+        "group": "31c44db.a429ab2",
+        "order": 3,
+        "width": "6",
+        "height": "3",
+        "options": [
+            {
+                "label": "Order ID",
+                "value": "O_ID",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "GiftItemID",
+                "value": "GiftItemID",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Quantity",
+                "value": "Quantity",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "ItemPrice",
+                "value": "ItemPrice",
+                "type": "number",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "O_ID": "",
+            "GiftItemID": "",
+            "Quantity": "",
+            "ItemPrice": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "update_order",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 160,
+        "y": 420,
+        "wires": [
+            [
+                "129d388cf6fc054e"
+            ]
+        ]
+    },
+    {
+        "id": "129d388cf6fc054e",
+        "type": "function",
+        "z": "4c71721929c92955",
+        "name": "Create Update Query",
+        "func": "msg.topic = \"UPDATE orders SET GiftItemID = ${msg.payload.GiftItemID}, Quantity = ${msg.payload.Quantity}, ItemPrice = ${msg.payload.ItemPrice} WHERE OrderID = ${msg.payload.O_ID};\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 420,
+        "wires": [
+            [
+                "a498237e05eaaf8a"
+            ]
+        ]
+    },
+    {
+        "id": "8c87e1a5ce09e58a",
+        "type": "ui_form",
+        "z": "4c71721929c92955",
+        "name": "Delete Order",
+        "label": "Delete Order",
+        "group": "31c44db.a429ab2",
+        "order": 4,
+        "width": "6",
+        "height": "2",
+        "options": [
+            {
+                "label": "Order ID",
+                "value": "O_ID",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "O_ID": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "delete_order",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 160,
+        "y": 540,
+        "wires": [
+            [
+                "2c6513c3fcbc38ee"
+            ]
+        ]
+    },
+    {
+        "id": "2c6513c3fcbc38ee",
+        "type": "function",
+        "z": "4c71721929c92955",
+        "name": "Create Delete Query",
+        "func": "msg.topic = \"DELETE FROM orders WHERE OrderID = ${msg.payload.O_ID};\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 540,
+        "wires": [
+            [
+                "a498237e05eaaf8a"
+            ]
+        ]
+    }
+]
+
